@@ -6,7 +6,7 @@ func swap(pos1, pos2 *int) {
 	*pos2 = aux
 }
 
-func ordenarCrescente(array []int) []int {
+func ordenarCrescente(array []int) []int { // Ordena por Cocktail Sort
 	var swapped bool = true
 	var start int = 0
 	var end int = len(array) - 1
