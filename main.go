@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"StrategyFuncs/strategy"
+)
 
 type listFunction func([]int) []int
 
