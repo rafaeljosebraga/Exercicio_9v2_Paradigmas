@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/tainararib/exercico_9v2_paradigmas/StrategyFuncs"
+	"github.com/rafaeljosebraga/Exercicio_9v2_Paradigmas/StrategyFuncs"
 )
 
 type listFunction func([]int) []int
