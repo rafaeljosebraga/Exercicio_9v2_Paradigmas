@@ -15,5 +15,5 @@ func executar_estrategia(lista *[]int, estrategia listFunction) {
 func main() {
 	primes := []int{11, 2, 2, 2, 5, 3, 3, 11, 5, 11, 13, 5, 2, 3, 11}
 	executar_estrategia(&primes, StrategyFuncs.OrdenarCrescente)
-	fmt.Println("Remoção de duplicatas: ", primes)
+	fmt.Println("Lista Ordenada: ", primes)
 }
