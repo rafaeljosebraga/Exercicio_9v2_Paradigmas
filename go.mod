@@ -1,3 +1,3 @@
 module github.com/rafaeljosebraga/Exercicio_9v2_Paradigmas
 
-go 1.18
+go 1.23
