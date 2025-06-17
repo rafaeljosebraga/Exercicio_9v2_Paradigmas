@@ -18,4 +18,6 @@ func main() {
 
 	executar_estrategia(&primes, StrategyFuncs.RemoverDuplicatas)
 	fmt.Println("Lista de Remoção de duplicatas: ",primes)
+	executar_estrategia(&primes, StrategyFuncs.FiltraPares)
+	fmt.Println("Lista com Pares Filtrados: ", primes)
 }
