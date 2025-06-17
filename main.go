@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"StrategyFuncs/strategy"
+	"github.com/rafaeljosebraga/Exercicio_9v2_Paradigmas/StrategyFuncs"
 )
 
 type listFunction func([]int) []int
@@ -16,6 +16,6 @@ func main() {
 	// executar_estrategia(&primes, removeDuplicates)
 	fmt.Println("Remoção de duplicatas: ",primes)
 	primes2 := []int{11, 2, 2, 2, 5, 3, 3, 11, 5, 11, 13, 5, 2, 3, 11}
-	executar_estrategia(&primes, StrategyFuncs.FiltraPares)
+	executar_estrategia(&primes2, StrategyFuncs.FiltraPares)
 	fmt.Println("Pares Filtrados: ",primes2)
 }
