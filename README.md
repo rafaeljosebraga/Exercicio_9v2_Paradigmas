@@ -13,3 +13,9 @@ Ela preserva a ordem original dos itens, mantendo apenas a primeira vez que cada
 ## Casos de teste: 
     Entrada:  [11 2 2 2 5 3 3 11 5 11 13 5 2 3 11]
     Saida:  [11 2 5 3 13]
+## Função Filtrar Pares
+
+Essa função filtraPares recebe um array de inteiros e retorna um novo array contendo apenas os números pares.
+
+entrada -> {11, 2, 2, 2, 5, 3, 3, 11, 5, 11, 13, 5, 2, 3, 11}
+saída -> [2 2 2 2]
