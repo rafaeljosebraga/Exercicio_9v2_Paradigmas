@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"StrategyFuncs/strategy"
+
+	"github.com/keni/Exercicio_9v2_Paradigmas/StrategyFuncs"
 )
 
 type listFunction func([]int) []int
@@ -13,6 +14,6 @@ func executar_estrategia(lista *[]int, estrategia listFunction) {
 
 func main() {
 	primes := []int{11, 2, 2, 2, 5, 3, 3, 11, 5, 11, 13, 5, 2, 3, 11}
-	// executar_estrategia(&primes, removeDuplicates)
-	fmt.Println("Remoção de duplicatas: ",primes)
+	executar_estrategia(&primes, StrategyFuncs.OrdenarCrescente)
+	fmt.Println("Remoção de duplicatas: ", primes)
 }

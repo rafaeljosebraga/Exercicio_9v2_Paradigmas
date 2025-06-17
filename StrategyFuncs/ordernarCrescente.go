@@ -1,4 +1,4 @@
-package strategy
+package StrategyFuncs
 
 func swap(pos1, pos2 *int) {
 	aux := *pos1
@@ -6,7 +6,7 @@ func swap(pos1, pos2 *int) {
 	*pos2 = aux
 }
 
-func ordenarCrescente(array []int) []int { // // Ordena uma cópia de array de números recebidos por Cocktail Sort e o retorna
+func OrdenarCrescente(array []int) []int { // // Ordena uma cópia de array de números recebidos por Cocktail Sort e o retorna
 	var swapped bool = true
 	var start int = 0
 	var end int = len(array) - 1
@@ -19,7 +19,7 @@ func ordenarCrescente(array []int) []int { // // Ordena uma cópia de array de n
 				swap(&array[i], &array[i+1])
 				swapped = true
 			}
-		} 
+		}
 		if !swapped { // Termina se não empurrou ninguém
 			break
 		}
