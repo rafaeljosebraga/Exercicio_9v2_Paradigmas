@@ -4,6 +4,6 @@
 A função recebe uma lista de inteiros com duplicatas e retorna uma nova lista contendo apenas os elementos únicos.
 Ela preserva a ordem original dos itens, mantendo apenas a primeira vez que cada número aparece e descartando as repetições.
 
-Casos de teste: 
+## Casos de teste: 
     Entrada:  [11 2 2 2 5 3 3 11 5 11 13 5 2 3 11]
     Saida:  [11 2 5 3 13]

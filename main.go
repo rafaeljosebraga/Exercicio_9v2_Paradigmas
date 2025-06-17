@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-    "github.com/SarahEmanuelle/Exercicio_9v2_Paradigmas/StrategyFuncs"
+    "github.com/rafaeljosebraga/Exercicio_9v2_Paradigmas/StrategyFuncs"
 )
 
 type listFunction func([]int) []int
@@ -17,5 +17,5 @@ func main() {
 	fmt.Println("Remoção de duplicatas: ",primes)
 
 	executar_estrategia(&primes, StrategyFuncs.RemoverDuplicatas)
-	fmt.Println("Remoção de duplicatas: ",primes)
+	fmt.Println("Lista de Remoção de duplicatas: ",primes)
 }
