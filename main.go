@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/tainararib/exercico_9v2_paradigmas/StrategyFuncs"
+)
 
 type listFunction func([]int) []int
 
@@ -9,7 +12,8 @@ func executar_estrategia(lista *[]int, estrategia listFunction) {
 }
 
 func main() {
-	primes := []int{11, 2, 2, 2, 5, 3, 3, 11, 5, 11, 13, 5, 2, 3, 11}
-	// executar_estrategia(&primes, removeDuplicates)
-	fmt.Println("Remoção de duplicatas: ",primes)
+
+	lista := []int{1, 2, 25, 7, 5, 4, 3, 12}
+	executar_estrategia(&lista, StrategyFuncs.OrdenarDecrescente)
+	fmt.Println("Lista Decrescente: ", lista)
 }
